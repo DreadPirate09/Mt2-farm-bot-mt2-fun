@@ -25,8 +25,6 @@ def search_object(dir='', name='', method=cv.TM_SQDIFF_NORMED, hl=0, threshold=0
     img = cv.imread(dir, cv.TM_CCOEFF)
     # image = np.float32(image)
     # samples = np.float32(samples)
-    print(type(image))
-    print(type(img))
     val = None
     loc = (0, 0)
 
